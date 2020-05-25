@@ -1,0 +1,6 @@
+
+	Shapiro-Wilk normality test
+
+data:  residuals(mr.power.7)
+W = 0.98167, p-value = 0.6117
+

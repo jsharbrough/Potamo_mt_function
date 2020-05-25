@@ -1,0 +1,10 @@
+Anova Table (Type III tests)
+
+Response: log(JCplus_minus)
+             Sum Sq Df F value  Pr(>F)  
+(Intercept) 0.43190  1  5.4816 0.03453 *
+Lake        0.14290  1  1.8136 0.19947  
+Sex         0.00086  1  0.0109 0.91836  
+Residuals   1.10307 14                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

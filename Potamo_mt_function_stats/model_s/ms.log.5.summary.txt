@@ -1,0 +1,38 @@
+Linear mixed model fit by REML ['lmerMod']
+Formula: log(Righting) ~ as.factor(Temperature) * Lake + (1 | Tag)
+   Data: femaleB
+
+REML criterion at convergence: 100.4
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-2.13067 -0.51597  0.00799  0.52221  1.62626 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ Tag      (Intercept) 0.2103   0.4586  
+ Residual             0.3061   0.5533  
+Number of obs: 51, groups:  Tag, 17
+
+Fixed effects:
+                                       Estimate Std. Error t value
+(Intercept)                             3.00829    0.32138   9.361
+as.factor(Temperature)22               -0.55735    0.34992  -1.593
+as.factor(Temperature)30                0.60954    0.34992   1.742
+LakeMapourika                           0.81897    0.48206   1.699
+LakeSelfe                              -0.72839    0.40967  -1.778
+as.factor(Temperature)22:LakeMapourika  0.84338    0.52487   1.607
+as.factor(Temperature)30:LakeMapourika  0.04134    0.52487   0.079
+as.factor(Temperature)22:LakeSelfe      1.46112    0.44606   3.276
+as.factor(Temperature)30:LakeSelfe      0.97024    0.44606   2.175
+
+Correlation of Fixed Effects:
+            (Intr) as.(T)22 as.(T)30 LkMprk LakSlf a.(T)22:LM a.(T)30:LM a.(T)22:LS
+as.fct(T)22 -0.544                                                                 
+as.fct(T)30 -0.544  0.500                                                          
+LakeMapourk -0.667  0.363    0.363                                                 
+LakeSelfe   -0.784  0.427    0.427    0.523                                        
+as.(T)22:LM  0.363 -0.667   -0.333   -0.544 -0.285                                 
+as.(T)30:LM  0.363 -0.333   -0.667   -0.544 -0.285  0.500                          
+as.(T)22:LS  0.427 -0.784   -0.392   -0.285 -0.544  0.523      0.261               
+as.(T)30:LS  0.427 -0.392   -0.784   -0.285 -0.544  0.261      0.523      0.500    

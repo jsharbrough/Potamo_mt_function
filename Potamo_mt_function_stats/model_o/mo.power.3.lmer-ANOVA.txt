@@ -1,0 +1,8 @@
+Analysis of Deviance Table (Type III Wald chisquare tests)
+
+Response: Head^hL
+                         Chisq Df Pr(>Chisq)    
+(Intercept)            196.150  1  < 2.2e-16 ***
+as.factor(Temperature)  11.656  2   0.002943 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

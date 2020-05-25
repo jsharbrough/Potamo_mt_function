@@ -1,0 +1,26 @@
+Linear mixed model fit by REML ['lmerMod']
+Formula: Head^hL ~ as.factor(Temperature) + (1 | Tag)
+   Data: malesB
+
+REML criterion at convergence: -26
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-1.9000 -0.5211 -0.1264  0.6473  1.4060 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ Tag      (Intercept) 0.008559 0.09252 
+ Residual             0.009782 0.09891 
+Number of obs: 27, groups:  Tag, 9
+
+Fixed effects:
+                          Estimate Std. Error t value
+(Intercept)               0.632257   0.045144  14.005
+as.factor(Temperature)22  0.008294   0.046625   0.178
+as.factor(Temperature)30 -0.133524   0.046625  -2.864
+
+Correlation of Fixed Effects:
+            (Intr) a.(T)2
+as.fct(T)22 -0.516       
+as.fct(T)30 -0.516  0.500
