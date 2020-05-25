@@ -1,0 +1,6 @@
+
+	Shapiro-Wilk normality test
+
+data:  residuals(mi.power.3)
+W = 0.97088, p-value = 0.6887
+

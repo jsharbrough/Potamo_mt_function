@@ -1,0 +1,19 @@
+
+Call:
+lm(formula = log(JCplus_minus) ~ Sex, data = j)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.51679 -0.14233  0.00467  0.17403  0.50055 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.40367    0.05025   8.033 3.62e-10 ***
+SexMale      0.19008    0.07266   2.616   0.0121 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2462 on 44 degrees of freedom
+Multiple R-squared:  0.1346,	Adjusted R-squared:  0.1149 
+F-statistic: 6.843 on 1 and 44 DF,  p-value: 0.01215
+

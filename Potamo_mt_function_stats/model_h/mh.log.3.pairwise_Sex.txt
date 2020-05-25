@@ -1,0 +1,15 @@
+$emmeans
+ Sex    emmean     SE df lower.CL upper.CL
+ Female  0.404 0.0503 44    0.287    0.520
+ Male    0.594 0.0525 44    0.472    0.716
+
+Results are given on the log (not the response) scale. 
+Confidence level used: 0.95 
+Conf-level adjustment: bonferroni method for 2 estimates 
+
+$contrasts
+ contrast      estimate     SE df t.ratio p.value
+ Female - Male    -0.19 0.0727 44 -2.616  0.0121 
+
+Results are given on the log (not the response) scale. 
+

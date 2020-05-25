@@ -1,0 +1,6 @@
+
+	Shapiro-Wilk normality test
+
+data:  residuals(mh.log.1)
+W = 0.98469, p-value = 0.7984
+
