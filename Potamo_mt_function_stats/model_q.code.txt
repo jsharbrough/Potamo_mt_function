@@ -1,0 +1,16 @@
+j<-read.csv('JC1_Field.csv')
+ffJ <- j[which(j$Lake=='Selfe'),,drop=F]
+malesJ <- ffJ[which(ffJ$Sex=='Male'),,drop=F]
+mq.log.1<-lm(log(JCplus_minus) ~ RM,data=malesJ)
+sink('mq.log.1.shapiro-wilks.txt')
+shapiro.test(residuals(mq.log.1))
+sink()
+pdf('mq.log.1.fitted_vs_residuals.pdf')
+plot(mq.log.1)
+dev.off()
+pdf('mq.log.1.qqPlot.pdf')
+qqPlot(residuals(mq.log.1))
+dev.off()
+sink('mq.log.1.lm-ANOVA.txt')
+Anova(mq.log.1,type=3)
+sink()
