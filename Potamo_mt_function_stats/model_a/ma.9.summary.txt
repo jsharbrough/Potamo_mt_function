@@ -1,0 +1,39 @@
+Linear mixed model fit by REML ['lmerMod']
+Formula: O2_Consumption ~ Mass + as.factor(Temp) + Lake + (Mass | Tag)
+   Data: o2
+
+REML criterion at convergence: 1825.4
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-2.81278 -0.54448 -0.08101  0.62821  2.89933 
+
+Random effects:
+ Groups   Name        Variance  Std.Dev. Corr 
+ Tag      (Intercept)     890.9   29.85       
+          Mass        3844621.7 1960.77  -1.00
+ Residual                2316.0   48.13       
+Number of obs: 179, groups:  Tag, 61
+
+Fixed effects:
+                  Estimate Std. Error t value
+(Intercept)         44.129     21.089   2.093
+Mass              6124.340   1809.237   3.385
+as.factor(Temp)22   36.855      8.792   4.192
+as.factor(Temp)30   60.635      8.874   6.833
+LakeClearwater     -43.275     18.281  -2.367
+LakeKaniere         14.716     10.867   1.354
+LakeParinga         -2.060     15.747  -0.131
+LakeRotoroa          1.440     10.534   0.137
+LakeSelfe           35.459     18.701   1.896
+
+Correlation of Fixed Effects:
+            (Intr) Mass   a.(T)2 a.(T)3 LkClrw LakKnr LkPrng LakRtr
+Mass        -0.899                                                 
+as.fct(T)22 -0.208 -0.001                                          
+as.fct(T)30 -0.199 -0.012  0.504                                   
+LakeClerwtr  0.232 -0.422 -0.022 -0.017                            
+LakeKaniere -0.429  0.188  0.000  0.006  0.219                     
+LakeParinga -0.159 -0.025  0.000  0.020  0.216  0.342              
+LakeRotoroa -0.207 -0.063 -0.009 -0.008  0.335  0.506  0.359       
+LakeSelfe   -0.176  0.029  0.000  0.000  0.161  0.297  0.201  0.299

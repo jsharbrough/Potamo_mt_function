@@ -1,0 +1,27 @@
+$emmeans
+ RM      Sex    emmean    SE df lower.CL upper.CL
+ Asexual Female   3.22 0.166 42     2.79     3.65
+ Sexual  Female   3.74 0.180 42     3.27     4.20
+ Asexual Male     3.93 0.422 42     2.83     5.03
+ Sexual  Male     3.16 0.133 42     2.81     3.51
+
+Results are averaged over the levels of: Temperature 
+Degrees-of-freedom method: satterthwaite 
+Results are given on the log (not the response) scale. 
+Confidence level used: 0.95 
+Conf-level adjustment: bonferroni method for 4 estimates 
+
+$contrasts
+ contrast                       estimate    SE df t.ratio p.value
+ Asexual,Female - Sexual,Female   -0.518 0.245 42 -2.117  0.2013 
+ Asexual,Female - Asexual,Male    -0.715 0.453 42 -1.576  0.3673 
+ Asexual,Female - Sexual,Male      0.059 0.213 42  0.277  1.0000 
+ Sexual,Female - Asexual,Male     -0.197 0.459 42 -0.430  1.0000 
+ Sexual,Female - Sexual,Male       0.577 0.224 42  2.573  0.0822 
+ Asexual,Male - Sexual,Male        0.774 0.443 42  1.748  0.3513 
+
+Results are averaged over the levels of: Temperature 
+Degrees-of-freedom method: satterthwaite 
+Results are given on the log (not the response) scale. 
+P value adjustment: holm method for 6 tests 
+

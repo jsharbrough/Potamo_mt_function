@@ -1,0 +1,36 @@
+Linear mixed model fit by REML ['lmerMod']
+Formula: Head^hL ~ as.factor(Temperature) + Lake + (1 | Tag)
+   Data: b
+
+REML criterion at convergence: -167.1
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-2.45644 -0.63118  0.08094  0.59489  1.93940 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ Tag      (Intercept) 0.003341 0.0578  
+ Residual             0.010993 0.1048  
+Number of obs: 138, groups:  Tag, 46
+
+Fixed effects:
+                         Estimate Std. Error t value
+(Intercept)               0.58702    0.04994  11.753
+as.factor(Temperature)22 -0.01894    0.02186  -0.866
+as.factor(Temperature)30 -0.14035    0.02186  -6.419
+LakeEllery                0.09758    0.06112   1.596
+LakeKaniere               0.01217    0.05918   0.206
+LakeMapourika             0.06599    0.05510   1.198
+LakeRotoroa              -0.02791    0.06112  -0.457
+LakeSelfe                 0.08444    0.05241   1.611
+
+Correlation of Fixed Effects:
+            (Intr) a.(T)2 a.(T)3 LkEllr LakKnr LkMprk LakRtr
+as.fct(T)22 -0.219                                          
+as.fct(T)30 -0.219  0.500                                   
+LakeEllery  -0.765  0.000  0.000                            
+LakeKaniere -0.790  0.000  0.000  0.645                     
+LakeMapourk -0.849  0.000  0.000  0.693  0.716              
+LakeRotoroa -0.765  0.000  0.000  0.625  0.645  0.693       
+LakeSelfe   -0.892  0.000  0.000  0.729  0.753  0.809  0.729

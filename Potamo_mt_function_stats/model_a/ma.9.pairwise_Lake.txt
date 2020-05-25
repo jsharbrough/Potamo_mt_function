@@ -1,0 +1,36 @@
+$emmeans
+ Lake        emmean    SE    df lower.CL upper.CL
+ Alexandrina  140.4  7.70  61.1    119.4      161
+ Clearwater    97.2 16.65 169.5     52.7      142
+ Kaniere      155.2  7.63  56.5    134.3      176
+ Paringa      138.4 13.74  70.5    101.1      176
+ Rotoroa      141.9  7.21  86.2    122.4      161
+ Selfe        175.9 17.04  69.3    129.6      222
+
+Results are averaged over the levels of: Temp 
+Degrees-of-freedom method: satterthwaite 
+Confidence level used: 0.95 
+Conf-level adjustment: bonferroni method for 6 estimates 
+
+$contrasts
+ contrast                 estimate   SE    df t.ratio p.value
+ Alexandrina - Clearwater    43.28 18.3 169.1  2.367  0.2286 
+ Alexandrina - Kaniere      -14.72 10.9  51.0 -1.354  1.0000 
+ Alexandrina - Paringa        2.06 15.7  70.1  0.131  1.0000 
+ Alexandrina - Rotoroa       -1.44 10.5  80.3 -0.137  1.0000 
+ Alexandrina - Selfe        -35.46 18.7  68.3 -1.896  0.6217 
+ Clearwater - Kaniere       -57.99 19.1 166.0 -3.034  0.0392 
+ Clearwater - Paringa       -41.22 21.4 162.3 -1.926  0.6139 
+ Clearwater - Rotoroa       -44.71 17.8 167.9 -2.514  0.1672 
+ Clearwater - Selfe         -78.73 24.0 126.8 -3.287  0.0197 
+ Kaniere - Paringa           16.78 15.8  61.7  1.063  1.0000 
+ Kaniere - Rotoroa           13.28 10.6  68.4  1.247  1.0000 
+ Kaniere - Selfe            -20.74 18.6  66.8 -1.113  1.0000 
+ Paringa - Rotoroa           -3.50 15.5  80.0 -0.226  1.0000 
+ Paringa - Selfe            -37.52 21.9  71.9 -1.713  0.7279 
+ Rotoroa - Selfe            -34.02 18.5  71.5 -1.837  0.6331 
+
+Results are averaged over the levels of: Temp 
+Degrees-of-freedom method: satterthwaite 
+P value adjustment: holm method for 15 tests 
+

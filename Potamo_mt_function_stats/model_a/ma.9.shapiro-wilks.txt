@@ -1,0 +1,6 @@
+
+	Shapiro-Wilk normality test
+
+data:  residuals(ma.9)
+W = 0.99478, p-value = 0.7863
+

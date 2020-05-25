@@ -1,0 +1,36 @@
+$emmeans
+ Lake        emmean     SE df lower.CL upper.CL
+ Alexandrina  0.534 0.0483 40    0.400    0.668
+ Ellery       0.632 0.0374 40    0.528    0.735
+ Kaniere      0.546 0.0342 40    0.451    0.641
+ Mapourika    0.600 0.0265 40    0.526    0.673
+ Rotoroa      0.506 0.0374 40    0.402    0.610
+ Selfe        0.618 0.0203 40    0.562    0.675
+
+Results are averaged over the levels of: Temperature 
+Degrees-of-freedom method: satterthwaite 
+Confidence level used: 0.95 
+Conf-level adjustment: bonferroni method for 6 estimates 
+
+$contrasts
+ contrast                estimate     SE df t.ratio p.value
+ Alexandrina - Ellery     -0.0976 0.0611 40 -1.596  1.0000 
+ Alexandrina - Kaniere    -0.0122 0.0592 40 -0.206  1.0000 
+ Alexandrina - Mapourika  -0.0660 0.0551 40 -1.198  1.0000 
+ Alexandrina - Rotoroa     0.0279 0.0611 40  0.457  1.0000 
+ Alexandrina - Selfe      -0.0844 0.0524 40 -1.611  1.0000 
+ Ellery - Kaniere          0.0854 0.0507 40  1.685  1.0000 
+ Ellery - Mapourika        0.0316 0.0458 40  0.689  1.0000 
+ Ellery - Rotoroa          0.1255 0.0529 40  2.371  0.3174 
+ Ellery - Selfe            0.0131 0.0426 40  0.309  1.0000 
+ Kaniere - Mapourika      -0.0538 0.0432 40 -1.245  1.0000 
+ Kaniere - Rotoroa         0.0401 0.0507 40  0.791  1.0000 
+ Kaniere - Selfe          -0.0723 0.0397 40 -1.818  0.9182 
+ Mapourika - Rotoroa       0.0939 0.0458 40  2.048  0.6127 
+ Mapourika - Selfe        -0.0184 0.0334 40 -0.553  1.0000 
+ Rotoroa - Selfe          -0.1123 0.0426 40 -2.638  0.1772 
+
+Results are averaged over the levels of: Temperature 
+Degrees-of-freedom method: satterthwaite 
+P value adjustment: holm method for 15 tests 
+

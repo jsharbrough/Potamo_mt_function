@@ -1,0 +1,15 @@
+Analysis of Deviance Table (Type III Wald chisquare tests)
+
+Response: O2_Consumption
+                       Chisq Df Pr(>Chisq)  
+(Intercept)           0.0480  1    0.82659  
+Mass                  0.3338  1    0.56342  
+as.factor(Temp)       5.9261  2    0.05166 .
+Lake                  7.1215  5    0.21176  
+RM                    0.1823  2    0.91288  
+Mass:as.factor(Temp)  0.8136  2    0.66576  
+as.factor(Temp):Lake 14.7231 10    0.14249  
+Mass:RM               2.0894  2    0.35180  
+as.factor(Temp):RM    5.3974  4    0.24889  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
