@@ -1,0 +1,5 @@
+Fitted parameters:
+    lambda       beta    sigmasq 
+-0.2845205  1.4457905  0.2329130 
+
+Convergence code returned by optim: 0

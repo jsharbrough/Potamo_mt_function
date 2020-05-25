@@ -1,0 +1,19 @@
+$emmeans
+ Temp emmean   SE df lower.CL upper.CL
+   16   97.4 11.2 41     69.5      125
+   22  167.4 11.2 41    139.6      195
+   30  154.9 11.2 41    127.0      183
+
+Degrees-of-freedom method: satterthwaite 
+Confidence level used: 0.95 
+Conf-level adjustment: bonferroni method for 3 estimates 
+
+$contrasts
+ contrast estimate   SE df t.ratio p.value
+ 16 - 22     -70.0 15.8 41 -4.435  0.0002 
+ 16 - 30     -57.5 15.8 41 -3.639  0.0015 
+ 22 - 30      12.6 15.8 41  0.796  0.4306 
+
+Degrees-of-freedom method: satterthwaite 
+P value adjustment: holm method for 3 tests 
+
